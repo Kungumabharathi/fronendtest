@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .box {
+    padding:5px;
+    background-color: #f2f5f70e;
+    /* text-align: center;*/
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+
+    /*margin: 10px;
+    flex-direction: column;*/
+    align-items: center;
+    background-color: #fff;
+    border:2px solid rgb(128, 128, 128);
+    border-radius: 4px;
+   
+  }
+  .drophead{
+      margin-right: 60px;
+      
+  }
+  .drophead1{
+      float: right;
+      margin-right: 70px;
+      
+  }
+  
+
+  .options {
+    display: none;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .dropdown-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+/* width of the dropdown*/
+  .dropdown {
+    width: 100px;
+  }
+  .input-box{
+      height:70px;
+      width:400px;
+
+  }
+  .heading {
+    font-size: 20px; /* Adjust the value as needed */
+    text-align: center;
+    line-height: 1.5;
+    color: #4d9277; /* Optional: Add border for better visibility */
+    padding: 10px;
+   
+  }
+  /* style for horizontal line before and after the heading  */
+  h1::before,
+  h1::after {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid rgb(128, 128, 128);
+  border-radius: 2px;
+  width: 7.5rem;
+  margin: 0 1rem;
+  transform: translateY(-.4rem);
+  }
+  /* style for offer like 60% OFF */
+  .offer{
+      float:right;
+      margin-right:10px;
+      font-weight: bold;
+     
+      
+  }
+  /* style for offer like Price DKK 234.00*/
+  .price{
+      margin-left: 20px;
+      font-weight: bold;
+  }
+  .bottom{
+      display: flex;
+      padding:20px;
+      font-weight: 600;
+      
+  }
+  p{
+      margin-left: 35px;
+      margin-right: 35px;
+     
+     
+  }
+
+/* style for botton button */
+  .button{
+      color:#fff;
+      background-color: #4d9277;
+      border: none;
+      border-radius: 2px;
+      width:400px;
+      height:70px;
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+  /* style for botton of the italic title @powered by pumber */
+
+  .last-head{
+      float:right;
+      margin-left: 200px;
+      font-style: italic;
+  }
+  
